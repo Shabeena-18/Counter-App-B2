@@ -16,7 +16,7 @@ function Increment(){
    else if(updateCount<0){
     count.style.color = "red";
    }
-   else{
+   else if(updateCount==0){
     count.style.color = "black";
    }
 }
@@ -35,7 +35,7 @@ function Decrement(){
    else if(updateCount<0){
     count.style.color = "red";
    }
-   else{
+   else if(updateCount==0){
     count.style.color = "black";
    }
 }
@@ -49,7 +49,7 @@ function Reset(){
    else if(updateCount<0){
     count.style.color = "red";
    }
-   else{
+   else if(updateCount==0){
     count.style.color = "black";
    }
 }
